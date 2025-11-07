@@ -59,7 +59,7 @@ export default function TaskDashboard() {
         setSuccess("✅ Task updated successfully!");
       } else {
         await TaskService.createTask(form);
-        setSuccess("✅ Task added successfully!");
+        setSuccess("✅ Tasks added successfully!");
       }
 
       // Reset form and reload data
